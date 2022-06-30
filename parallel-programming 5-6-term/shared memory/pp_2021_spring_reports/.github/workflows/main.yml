@@ -1,0 +1,28 @@
+name: Build application
+
+on: [push, pull_request]
+
+jobs:
+  ubuntu-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup environment
+      run: |
+        sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+        sudo apt-get update
+        sudo apt-get install texlive*
+    - name: Update submodules
+      run: git submodule update --init --recursive
+    - name: Build
+      run: |
+        mkdir build
+        cd build
+        cmake -D USE_LATEX=ON  ..
+        cmake --build . 
+        cd ..
+      shell: bash
+    - uses: actions/upload-artifact@v2
+      with:
+        name: ubuntu-artifacts
+        path: build/bin/

@@ -1,0 +1,21 @@
+environment:
+  matrix:
+    - APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
+      CMAKE_GENERATOR: "Visual Studio 16 2019"
+
+install:
+  - powershell -file "scripts\miktex_install.ps1"
+  - refreshenv
+  - pdflatex -version
+
+build_script:
+  - cmd: git submodule update --init --recursive
+  - cmd: mkdir build
+  - cmd: cd build
+  - cmd: cmake -D USE_LATEX=ON ..
+  - cmd: cmake --build .
+  - cmd: cd ..
+
+artifacts:
+  - path: build\bin
+    name: windows-artifacts

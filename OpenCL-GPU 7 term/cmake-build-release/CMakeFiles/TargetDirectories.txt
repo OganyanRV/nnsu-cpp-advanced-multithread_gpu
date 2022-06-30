@@ -1,0 +1,11 @@
+E:/Desktop/GPU/cmake-build-release/CMakeFiles/edit_cache.dir
+E:/Desktop/GPU/cmake-build-release/CMakeFiles/rebuild_cache.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab1/CMakeFiles/oganyan_lab1.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab1/CMakeFiles/edit_cache.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab1/CMakeFiles/rebuild_cache.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab2/CMakeFiles/oganyan_lab2.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab2/CMakeFiles/edit_cache.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab2/CMakeFiles/rebuild_cache.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab3/CMakeFiles/rebuild_cache.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab3/CMakeFiles/oganyan_lab3.dir
+E:/Desktop/GPU/cmake-build-release/oganyan_lab3/CMakeFiles/edit_cache.dir

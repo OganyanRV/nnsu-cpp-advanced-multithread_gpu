@@ -1,0 +1,3 @@
+add_subdirectory(oganyan_lab1)
+add_subdirectory(oganyan_lab2)
+add_subdirectory(oganyan_lab3)

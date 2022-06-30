@@ -1,0 +1,3 @@
+[submodule "3rdparty/UseLATEX"]
+	path = 3rdparty/UseLATEX
+	url = https://gitlab.kitware.com/kmorel/UseLATEX
